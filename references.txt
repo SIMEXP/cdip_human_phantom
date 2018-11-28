@@ -1,0 +1,6 @@
+
+Travis E, Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006).
+
+Wes McKinney. Data Structures for Statistical Computing in Python, Proceedings of the 9th Python in Science Conference, 51-56 (2010) 
+
+

@@ -3,15 +3,11 @@ This repository contains packages, scripts, and notebooks for the following arti
 
 Click the following link to reproduce the analysis on binder: 
 
-<<<<<<< HEAD
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HanadS/cdip_human_phantom/master)
-=======
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HanadS/cdip_human_phantom/master)
-
->>>>>>> 5dffccf2a967680cc66546c34ebdd04ff9f42e1e
 
 Here is a brief description of each item in the repository:
+
+**Matlab Scripts**
+
 * **niak_pipeline_t1_average.m** - Octave script averaging T1w images of a subject iteratively with linear registration inside a NIAK container.
 * **Csub_t1_AverageAllScansFinal.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
 * **Csub_preprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on CDIP data inside a NIAK container.
@@ -19,7 +15,18 @@ Here is a brief description of each item in the repository:
 * **connectome_testRetest.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 * **correlationTestOnly.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 * **connectome_HNU.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
-* **dashboard** - 
+
+**dashboard** - 
+
+**Notebooks**
+
+* **Csub_HNU_Graphs** -
+
+* **stats_repro** -
+
+* **stats_fingerprinting** - 
+
 
 This repository has also been archived on Zenodo: (provide link and DOI)
  
+

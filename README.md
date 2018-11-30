@@ -3,8 +3,13 @@ This repository contains packages, scripts, and notebooks for the following arti
 
 Click the following link to reproduce the analysis on binder: 
 
+<<<<<<< HEAD
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HanadS/cdip_human_phantom/master)
+=======
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HanadS/cdip_human_phantom/master)
+
+>>>>>>> 5dffccf2a967680cc66546c34ebdd04ff9f42e1e
 
 Here is a brief description of each item in the repository:
 * **niak_pipeline_t1_average.m** - Octave script averaging T1w images of a subject iteratively with linear registration inside a NIAK container.

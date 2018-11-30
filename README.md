@@ -20,7 +20,7 @@ Here is a brief description of each item in the repository:
 
 * **Csub_HNU_Graphs** - Jupter notebook that continas graphs for Csub intra-site, inter-scan consistency over time (2.5 years),Csub vendor consistency and HNU intra-individual consistency per network, and across all networks
 
-* **stats_repro** - Jupyter notebook with matrices that show inter-scan comparisons for each network and time between scans 
+* **stats_repro** - 
 
 * **stats_fingerprinting** - 
 

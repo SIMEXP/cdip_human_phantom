@@ -3,6 +3,8 @@ This repository contains packages, scripts, and notebooks for the following arti
 
 Click the following link to reproduce the analysis on binder: 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SIMEXP/cdip_human_phantom/master)
+
 
 Here is a brief description of each item in the repository:
 

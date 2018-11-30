@@ -28,4 +28,4 @@ Here is a brief description of each item in the repository:
 This repository has also been archived on Zenodo: (provide link and DOI)
  
 
-**Dashboard** - 
+**Dashboard** - dashboard that shows the consistency of brain connectivity maps generated using resting-state functional magnetic resonance imaging (rsfMRI) across 17 visits of a single individual

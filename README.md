@@ -11,23 +11,31 @@ Here is a brief description of each item in the repository:
 **Matlab Scripts**
 
 * **niak_pipeline_t1_average.m** - Octave script averaging T1w images of a subject iteratively with linear registration inside a NIAK container.
-* **Csub_t1_averageAllScansFinal.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
-* **Csub_preprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on CDIP data inside a NIAK container.
-* **HNU1_preprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on HNU1 data inside a NIAK container.
-* **connectome_testRetest.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
-* **correlation_testOnly.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
+* **Csub_t1_average_all_scans_final.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
+* **Csub_preprocess_all_scans.m** - Octave script to run a preprocessing pipeline analysis on CDIP data inside a NIAK container.
+* **HNU1_preprocess_sll_scans.m** - Octave script to run a preprocessing pipeline analysis on HNU1 data inside a NIAK container.
+* **connectome_test_retest.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
+* **correlation_test_only.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 * **connectome_HNU.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 
 **Notebooks**
 
-* **Csub_HNU_Graphs** - Jupter notebook that continas graphs for Csub intra-site, inter-scan consistency over time (2.5 years),Csub vendor consistency and HNU intra-individual consistency per network, and across all networks
+* **graphs** - Jupter notebook that continas graphs for Csub intra-site, inter-scan consistency over time (2.5 years),Csub vendor consistency and HNU intra-individual consistency per network, and across all networks
 
-* **stats_repro** - 
+* **stats_repro** - Jupyter notebook used for generating the statistics used to assess consistency of individual rsfMRI measures within/between sites
 
-* **stats_fingerprinting** - 
+* **stats_fingerprinting** - Jupyter notebook used to assess the ability of a simple data-driven cluster analysis to recover the identity of subjects based on connectivity maps of a single network
+
+* **Csub-intra_png** - images used for average connectivity maps
+
+* **all_correlation_list.csv** - spreadsheet with correlations for intra-site and inter-scan consistency
+
+* **HNU1_Csub.csv** -
+
+
+**Dockerfile** - defines the executable environment used for binder container
+
+**HNU1_dataset_with_Csub** - dashboard that shows the consistency of brain connectivity maps generated using resting-state functional magnetic resonance imaging (rsfMRI) across 17 visits of a single individual
 
 
 This repository has also been archived on Zenodo: (provide link and DOI)
- 
-
-**Dashboard** - dashboard that shows the consistency of brain connectivity maps generated using resting-state functional magnetic resonance imaging (rsfMRI) across 17 visits of a single individual

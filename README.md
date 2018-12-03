@@ -11,11 +11,11 @@ Here is a brief description of each item in the repository:
 **Matlab Scripts**
 
 * **niak_pipeline_t1_average.m** - Octave script averaging T1w images of a subject iteratively with linear registration inside a NIAK container.
-* **Csub_t1_AverageAllScansFinal.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
+* **Csub_t1_averageAllScansFinal.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
 * **Csub_preprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on CDIP data inside a NIAK container.
-* **HNU1PreprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on HNU1 data inside a NIAK container.
+* **HNU1_preprocessAllScans.m** - Octave script to run a preprocessing pipeline analysis on HNU1 data inside a NIAK container.
 * **connectome_testRetest.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
-* **correlationTestOnly.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
+* **correlation_testOnly.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 * **connectome_HNU.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 
 **Notebooks**

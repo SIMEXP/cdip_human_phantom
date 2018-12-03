@@ -15,16 +15,21 @@ Here is a brief description of each item in the repository:
 * **Csub_preprocess_all_scans.m** - Octave script to run a preprocessing pipeline analysis on CDIP data inside a NIAK container.
 * **HNU1_preprocess_sll_scans.m** - Octave script to run a preprocessing pipeline analysis on HNU1 data inside a NIAK container.
 * **connectome_test_retest.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
-* **correlation_test_only.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
 * **connectome_HNU.m** - Octave script to run a connectome pipeline on preprocessed fMRI data to generate connectivity maps.
+
+* **all_correlations_Csub.m** - 
+
+* **all_correlations_HNU.m** - 
+
+* **connectome_test_only.m** - 
 
 **Notebooks**
 
-* **graphs** - Jupter notebook that continas graphs for Csub intra-site, inter-scan consistency over time (2.5 years),Csub vendor consistency and HNU intra-individual consistency per network, and across all networks
+* **graphs.ipynb** - Jupter notebook that continas graphs for Csub intra-site, inter-scan consistency over time (2.5 years),Csub vendor consistency and HNU intra-individual consistency per network, and across all networks
 
-* **stats_repro** - Jupyter notebook used for generating the statistics used to assess consistency of individual rsfMRI measures within/between sites
+* **stats_repro.ipynb** - Jupyter notebook used for generating the statistics used to assess consistency of individual rsfMRI measures within/between sites
 
-* **stats_fingerprinting** - Jupyter notebook used to assess the ability of a simple data-driven cluster analysis to recover the identity of subjects based on connectivity maps of a single network
+* **stats_fingerprinting.ipynb** - Jupyter notebook used to assess the ability of a simple data-driven cluster analysis to recover the identity of subjects based on connectivity maps of a single network
 
 * **Csub-intra_png** - images used for average connectivity maps
 

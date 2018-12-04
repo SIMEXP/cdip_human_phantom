@@ -3,11 +3,11 @@ This repository contains packages, scripts, and notebooks for the following arti
 
 Click the following link to reproduce the analysis on binder:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SIMEXP/cdip_human_phantom/master)Here is a brief description of each item in the repository:
 
-**Matlab Scripts*** 
+**Matlab Scripts** 
 
 * **niak_pipeline_t1_average.m** - Octave script averaging T1w images of a subject iteratively with linear registration inside a NIAK container.
 
-* **Csub_t1_average_all_scans_final.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
+* **Csub_t1_average.m** - Octave script that calls niak_pipeline_t1_average.m and provides needed information.
 
 * **Csub_preprocess.m** - Octave script to run a preprocessing pipeline analysis on Csub data inside a NIAK container.
 
@@ -16,11 +16,12 @@ Click the following link to reproduce the analysis on binder:[![Binder](https://
 * **connectome_Csub.m** - Octave script to run a connectome pipeline on preprocessed Csub data to generate rsfMRI connectivity maps.
 
 * **connectome_HNU1.m** - Octave script to run a connectome pipeline on preprocessed HNU1 data to generate rsfMRI connectivity maps
+
 * **all_correlations_Csub.m** - Octave script to assess consistancy between rsfMRI connectivity maps from the Csub datase
 
 * **all_correlations_HNU1.m** - Octave script to assess consistency between rsfMRI connectivity maps from the HNU1 dataset
 
-**Notebooks*** 
+**Notebooks**
 
 * **graphs.ipynb** - Jupyter notebook that contains graphs for Csub intra-site, inter-scan consistency over time (2.5 years), Csub vendor consistency, and HNU intra-individual consistency per network, and across all networks
 
@@ -35,6 +36,7 @@ Click the following link to reproduce the analysis on binder:[![Binder](https://
 * **HNU1_Csub.csv** -spreadsheet with all correlations between HNU1 and Csub datasets
 
 **Dashboard**
+
 * **HNU1_and_Csub_dashboard** - dashboard showing connectivity maps of HNU1 partiipants and Csub for each of the seven canonical rsfMRI networks
 
 * **Csub_longitudinal_consistency_dashboard** - dashboard showing connectivity maps of Csub's multiple retest visits for each of the seven canonical rsfMRI networks

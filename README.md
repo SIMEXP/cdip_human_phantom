@@ -19,13 +19,13 @@ Here is a brief description of each item in the repository:
 
 * **connectome_HNU1.m** - Octave script to run a connectome pipeline on preprocessed HNU1 data to generate rsfMRI connectivity maps
 
-* **all_correlations_Csub.m** - Octave script to assess consistancy between rsfMRI connectivity maps from the Csub datase
+* **all_correlations_Csub.m** - Octave script to assess consistancy between rsfMRI connectivity maps from the Csub database
 
 * **all_correlations_HNU1.m** - Octave script to assess consistency between rsfMRI connectivity maps from the HNU1 dataset
 
 **Notebooks**
 
-* **graphs.ipynb** - Jupyter notebook that contains graphs for Csub intra-site, inter-scan consistency over time (2.5 years), Csub vendor consistency, and HNU intra-individual consistency per network, and across all networks
+* **graphs.ipynb** - Jupyter notebook that contains graphs for Csub intra-site, inter-scan consistency over time (2.5 years), Csub vendor consistency, and HNU1 intra-individual consistency per network, and across all networks
 
 * **stats_repro.ipynb** - Jupyter notebook used to generate the statistics used to assess the consistency of individual rsfMRI measures within/between sites
 
@@ -33,7 +33,7 @@ Here is a brief description of each item in the repository:
 
 * **Csub-intra_png** - images of average connectivity maps
 
-* **Csub_correlation.csv** - spreadsheet with correlations for intra-site and inter-scan consistency
+* **Csub_correlation.csv** - spreadsheet with correlations
 
 * **HNU1_Csub.csv** -spreadsheet with all correlations between HNU1 and Csub datasets
 
@@ -41,6 +41,6 @@ Here is a brief description of each item in the repository:
 
 * **HNU1_and_Csub_dashboard** - dashboard showing connectivity maps of HNU1 partiipants and Csub for each of the seven canonical rsfMRI networks
 
-* **Csub_longitudinal_consistency_dashboard** - dashboard showing connectivity maps of Csub's multiple retest visits for each of the seven canonical rsfMRI networks
+* **Csub_longitudinal_consistency_dashboard** - dashboard showing connectivity maps of Csub's multiple retest visits for each of the seven canonical rsfMRI networks. Note that the second inter-session scan "MNI25" was dropped from consistency analysis in the manuscript.
 
 **Dockerfile** - defines the executable environment used for binder container

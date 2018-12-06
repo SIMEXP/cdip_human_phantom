@@ -1,5 +1,9 @@
 # cdip_human_phantom
-This repository contains packages, scripts, and notebooks for the following article Multivariate consistency of resting-state fMRI connectivity maps acquired on a single individual over 2.5 years, 13 sites and 3 vendors (to add a link and DOI).
+This repository contains packages, scripts, and notebooks for the following article Multivariate consistency of resting-state fMRI connectivity maps acquired on a single individual over 2.5 years, 13 sites and 3 vendors 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1311791.svg)](https://doi.org/10.5281/zenodo.1311791)
+
+
 
 Click the following link to reproduce the analysis on binder:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SIMEXP/cdip_human_phantom/master)
 
@@ -39,7 +43,7 @@ Here is a brief description of each item in the repository:
 
 **Dashboard**
 
-* **HNU1_and_Csub_dashboard** - dashboard showing connectivity maps of HNU1 partiipants and Csub for each of the seven canonical rsfMRI networks
+* **HNU1_and_Csub_dashboard** - dashboard showing connectivity maps of HNU1 participants and Csub for each of the seven canonical rsfMRI networks
 
 * **Csub_longitudinal_consistency_dashboard** - dashboard showing connectivity maps of Csub's multiple retest visits for each of the seven canonical rsfMRI networks. Note that the second inter-session scan "MNI25" was dropped from consistency analysis in the manuscript.
 

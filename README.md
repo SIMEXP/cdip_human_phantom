@@ -1,8 +1,7 @@
 # cdip_human_phantom
 This repository contains packages, scripts, and notebooks for the following article Multivariate consistency of resting-state fMRI connectivity maps acquired on a single individual over 2.5 years, 13 sites and 3 vendors 
 
-[![DOI][https://zenodo.org/badge/DOI/10.5281/zenodo.1979984.svg](https://doi.org/10.5281/zenodo.1979984)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3350885.svg)](https://doi.org/10.5281/zenodo.3350885)
 
 Click the following link to reproduce the analysis on binder:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SIMEXP/cdip_human_phantom/master)
 
